@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "coverUrl": "https://www.udemy.com/course/nestjs-the-complete-developers-guide/learn/lecture/27441332#announczxements",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 2,
+    "coverUrl": "https://www.udemy.com/course/nestjs-the-complete-developers-guide/learn/lecture/27",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 3,
+    "coverUrl": "https://www.udemy.com/course/nestjs7",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 4,
+    "coverUrl": "https://www.udemy.com/course/4TH",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 5,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 6,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 7,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 8,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 9,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 10,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 11,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 12,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 13,
+    "coverUrl": "https://i.imgur.com/KD3g7Wx.jpeg",
+    "imgurCoverUrl": "https://i.imgur.com/6XCAtGE.jpeg",
+    "status": "done"
+  },
+  {
+    "id": 14,
+    "coverUrl": "https://docs.nestjs.com/assets/logo-small-gradient.svg",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 15,
+    "coverUrl": "https://i.imgur.com/BkX8K8a.png",
+    "imgurCoverUrl": "https://i.imgur.com/XsnyoKM.jpeg",
+    "status": "done"
+  }
+]

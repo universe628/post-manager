@@ -2,6 +2,8 @@
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
+    "strict": true,
+    "preserveConstEnums": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
