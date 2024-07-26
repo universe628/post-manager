@@ -88,5 +88,29 @@
     "coverUrl": "https://i.imgur.com/BkX8K8a.png",
     "imgurCoverUrl": "https://i.imgur.com/XsnyoKM.jpeg",
     "status": "done"
+  },
+  {
+    "id": 16,
+    "coverUrl": "https://i.imgur.com/BkX8K8a.png",
+    "imgurCoverUrl": "https://i.imgur.com/Pzzk39P.jpeg",
+    "status": "error"
+  },
+  {
+    "id": 17,
+    "coverUrl": "https://i.imgur.com/BkX8K8a.png",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 18,
+    "coverUrl": "https://i.imgur.com/BkX8K8a.png",
+    "imgurCoverUrl": "",
+    "status": "error"
+  },
+  {
+    "id": 19,
+    "coverUrl": "https://i.imgur.com/BkX8K8a.png",
+    "imgurCoverUrl": "",
+    "status": "error"
   }
 ]

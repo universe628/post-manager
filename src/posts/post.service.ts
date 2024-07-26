@@ -41,17 +41,13 @@ export class PostService {
     return postsToUpload;
   }
 
-  async processUploadQueue(){
-    const postsToUpload = await this.findPostsToUpload();
-    for (let element of postsToUpload){
-      await this.postRepo.updatePostStatusToUploadingById(element.id);
-      try {
-        const url = await this.ImgurService.uploadImageToImgur(element.coverUrl)
-        await this.postRepo.updatePostImgurUrlAndPostStatus(element.id, url)
-      } catch (error){
-        //console.log(error)
-        await this.postRepo.updatePostStatusToErrorById(element.id)
-      }
-    }
+  async processUploadQueue(id: number, url: string){
+    await this.postRepo.updatePostStatusToUploadingById(id);
+    try {
+      const imgurUrl = await this.ImgurService.uploadImageToImgur(url)
+      await this.postRepo.updatePostImgurUrlAndPostStatus(id, imgurUrl)
+    } catch (error){
+      await this.postRepo.updatePostStatusToErrorById(id)
+    } 
   }
 }

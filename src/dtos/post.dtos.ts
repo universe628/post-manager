@@ -22,3 +22,8 @@ export enum PostStatus {
   DONE = 'done',
   ERROR = 'error',
 }
+
+export interface QueueJob{
+  id: number;
+  url: string;
+}
