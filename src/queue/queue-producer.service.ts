@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Queue } from 'bull';
+import { Queue } from 'bullmq';
 import { InjectQueue } from '@nestjs/bullmq';
 import { QueueJob } from '../dtos/post.dtos'
 

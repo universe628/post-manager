@@ -7,9 +7,7 @@ import { PostRepository } from './post.repository';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({
-      isGlobal: true,
-    }),
+    ConfigModule,
     ImgurModule,
   ],
   controllers: [PostsController],
